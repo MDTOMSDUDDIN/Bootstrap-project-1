@@ -6,19 +6,42 @@
     <title>bootsrap </title>
     <!-- font awesome cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- css bootsrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<!-- bootstrap css cdn -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ <!-- bootstrap cs cdn -->
+    <style>
+        .my-link-style:hover{
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <i class="fa-duotone fa-handshake-angle"></i>
  <div class="container">
-    <header class="bg-secandary text-white pt-3 py-3 text-center text-md-right">
-        <div>
-            <img class="border rounded-circle bg-danger" src="toms.jpg" alt="" height="200px" width="200px">
-        </div>
-        <h1 class=" text-uppercase bg-primary text-white p-1 m-1 rounded-circle">study with Tomas</h1>
+    <!-- heading style starting  -->
+    <header>
+
+      <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+<a href="#" class="navbar-brand">
+    <img class="rounded-circle" src="book.png" alt="logo" weight="70px" height="70px">
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartogglerDemo02" aria-expanded="false" aria-controls="collapseExample">
+    <span class="navbar-toggler-icon"></span>
+</button>
+    <div class="collapse navbar-collapse" id="navbartogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tutorial</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About me </a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contect me </a></li>
+        </ul>
+
+    </div>
+        
+      </nav>
     </header>
+    <!-- heading style ends  -->
+
     <main>
 
        <div class="service-section  pt-3">
@@ -130,6 +153,7 @@
                         <footer class="blockquote-footer">
                             tomas uddin in <cite>facebook</cite>
                         </footer>
+
         <!-- button usring bootstrap 5 -->
   <button class="btn btn-outline-primary mb-3 btn-sm">DOWNLOAD CV </button>
          </blockquote>
@@ -138,9 +162,61 @@
 
         </div>
   <a class="btn btn-danger text-primary btn-sm" href="#">visit my website</a><br>
+   <!-- customer reviews section end here  -->
+   <div class="text-center py-2 bg-light ">Toggle-dynamic-bit style</div>
+   <!-- toggleable dynamic tab starts here -->
+   
+   <div class="tab-content">
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#edu">Education</a></li>
+        <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#skill">skills</a></li>
+        <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#hobby">Hobby</a></li>
 
+    </ul>
+    <div id="edu" class="tab-pane"><p>Education is a systematic process of acquiring knowledge, skills, values, and attitudes, usually through formal institutions such as schools, colleges, and universities. It is a lifelong process that empowers individuals to think critically, solve problems, communicate effectively, and contribute to society. Education can take various forms, including formal education (classroom-based), informal education (self-directed learning, family influence), and non-formal education (workshops, training programs).
 
+   The goals of education often include intellectual development, personal growth, socialization, and the preparation of individuals for future roles in society. It plays a crucial role in shaping individuals and societies, fostering innovation, and promoting economic and cultural development.</p></div>
+   <div id="skill" class="tab-pane"><p> A skill is a learned or acquired ability to perform a specific task with competence and expertise. Skills can be developed through education, training, practice, and experience. </p></div>
+   <div id="hobby" class="tab-pane"><p>
+    Certainly! Hobbies are activities that people engage in for pleasure, relaxation, and personal enjoyment during their leisure time. Hobbies can vary widely, catering to diverse interests and preferences. Here are some common types of hobbies:
+    
+    Artistic Hobbies:
+    
+    Drawing and painting
+    Sculpting
+    Photography
+    Crafting
+</p></div>
 
+</div>
+    <!-- toggleable dynamic tab End  here -->
+    <div class="text-center py-2 bg-light ">Toggle-dynamic-pill style</div>
+   <!-- toggleable dynamic pill starts here -->
+   
+   <div class="tab-content">
+    <ul class="nav nav-tabs">
+        <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#edu">Education</a></li>
+        <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#skill">skills</a></li>
+        <li class="nav-item"><a data-toggle="pill" class="nav-link" href="#hobby">Hobby</a></li>
+
+    </ul>
+    <div id="edu" class="tab-pane"><p>Education is a systematic process of acquiring knowledge, skills, values, and attitudes, usually through formal institutions such as schools, colleges, and universities. It is a lifelong process that empowers individuals to think critically, solve problems, communicate effectively, and contribute to society. Education can take various forms, including formal education (classroom-based), informal education (self-directed learning, family influence), and non-formal education (workshops, training programs).
+
+   The goals of education often include intellectual development, personal growth, socialization, and the preparation of individuals for future roles in society. It plays a crucial role in shaping individuals and societies, fostering innovation, and promoting economic and cultural development.</p></div>
+   <div id="skill" class="tab-pane"><p> A skill is a learned or acquired ability to perform a specific task with competence and expertise. Skills can be developed through education, training, practice, and experience. </p></div>
+   <div id="hobby" class="tab-pane"><p>
+    Certainly! Hobbies are activities that people engage in for pleasure, relaxation, and personal enjoyment during their leisure time. Hobbies can vary widely, catering to diverse interests and preferences. Here are some common types of hobbies:
+    
+    Artistic Hobbies:
+    
+    Drawing and painting
+    Sculpting
+    Photography
+    Crafting
+</p></div>
+
+</div>
+    <!-- toggleable dynamic pill End  here -->
   <!-- student list section strats here  -->
   <div class="student-list">
     <ul class="list-group">
@@ -150,6 +226,7 @@
         <a class="list-group-item bg-warning" href="#">sabbir hosson</a>
     </ul>
   </div>
+
   <!-- student list section end here  -->
       
     </main>
@@ -167,8 +244,12 @@
     </ul>
     </footer>
  </div>
-<!-- javascript -->
-    <script scr="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ 
+
+    <!-- javascript cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
+    <!-- javascript cdn end  -->
 </body>
 </html>
