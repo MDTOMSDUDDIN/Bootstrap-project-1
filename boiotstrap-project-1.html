@@ -14,6 +14,23 @@
         .my-link-style:hover{
             text-decoration: underline;
         }
+        #feedback{
+      background-color: #0d0442;
+      padding: 5% 10%;
+    }
+    .hr-style{
+      border:5px dotted white;
+      border-bottom: none;
+      width: 60px;
+    }
+    .carousel-item{
+      padding:5% 15%;
+      text-align: center;
+      font-style: italic;
+    }
+    .carousel-indicators{
+      bottom:-20px;
+    }
     </style>
 </head>
 <body>
@@ -94,11 +111,13 @@
                 <!-- 3rd card designing starting here -->
         </div>
     </div>
+
     <!-- tutorial section end here  -->
 
     <!-- heading style ends  -->
 
     <main>
+
         <!-- Media object starting here  -->
   <div class="media-section">
     <div class="text-center mb-3">
@@ -123,7 +142,55 @@
       </div>
   </div>
    <!-- Media-object Ending Here -->
+       <!-- carousel slide  designing starting here -->
+       <h1 class="text-center  blockquote-footer pt-3">Carousel slide Designing</h1>
+        <div class="container text-white">
+            <section id="feedback">
+              <div class="section-title">
+                <h3 class="text-center">Feedback</h3>
+                <hr class="hr-style">
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol >
+                    <div class="carousel-inner">
+                      <div class="carousel-item  active">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut asperiores nam enim quis error ea delectus necessitatibus voluptas! Fugiat, at!</p>
+                     <img class="rounded-circle" src="images/toms.jpg" alt="image" height="200px" width="200px">
+                     <h6 class="mb-3 p-3"> Md Tomas uddin</h6>
+                      </div>
+                      <div class="carousel-item">
+                        <p> 2 item Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut asperiores nam enim quis error ea delectus necessitatibus voluptas! Fugiat, at!</p>
+                        <img class="rounded-circle" src="images/slide3 (1).png" alt="" height="200px" width="200px">
+                        <h6 class="mb-3 p-3">Book</h6>
+                      </div>
+                      <div class="carousel-item">
+                        <p>3 item .Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut asperiores nam enim quis error ea delectus necessitatibus voluptas! Fugiat, at!</p>
+                        <img class="rounded-circle" src="images/slide3 (2).png" alt="image" height="200px" width="200px">
+                        <h6 class="mb-3 p-3">Software development</h6>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                </div>
+                
+            </section>
+          </div>
 
+        <!-- carousel slide designing ending here -->
 
        <div class="service-section  pt-3">
         <div class="title text-center mb-3 ">
@@ -196,10 +263,8 @@
           </p>
             </div>
         </div>
-
-        
+ 
         <!-- customer reviews section start here  -->
-
         <div class="customer-review  bg-light text-center">
             <div class="title text-center mb-3">
                 <h3 class="font-weight-bolder"> Customer Reviews</h3>
